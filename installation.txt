@@ -1,0 +1,11 @@
+npm install express 
+npm install nodemon
+npm install prisma --save-dev
+npm install @prisma/client
+npm install bcrypt
+npm install jsonwebtoken
+npm install dotenv --save
+npm install sqlite@3
+npx prisma  for prisma commands
+
+
