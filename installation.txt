@@ -6,6 +6,6 @@ npm install bcrypt
 npm install jsonwebtoken
 npm install dotenv --save
 npm install sqlite@3
-npx prisma  for prisma commands
+npx prisma  for prisma command
 
 
