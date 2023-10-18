@@ -25,7 +25,6 @@ model Book {
   name String
   imgUrl String
   price Float
-  auther String
   created DateTime @default(now())
   updated DateTime @default(now())
   userId Int

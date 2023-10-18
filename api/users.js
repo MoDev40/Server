@@ -8,7 +8,7 @@ const SEKRET_KEY = process.env.SEKRET_KEY;
 const router = express.Router()
 
 //? singUp
-router.post('/singup',async (req,res)=>{
+router.post('/signup',async (req,res)=>{
     const { name ,email,password} = req.body
     try{
         const existingUser = await prisma.user.findUnique({
